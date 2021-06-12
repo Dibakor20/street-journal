@@ -1,0 +1,22 @@
+.head-bar{
+    border-top: 1px solid lightgray;
+}
+.header-title{
+    text-align: right;
+}
+.header-subscribe{
+    text-align: right;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+.header-subscribe a{
+    color: #555;
+    text-decoration: none;
+}
+.subscribe{
+    padding: 0px 8px;
+    border-right: 1px solid lightgrey;
+}
+.sign-in{
+    padding: 0px 8px;
+}

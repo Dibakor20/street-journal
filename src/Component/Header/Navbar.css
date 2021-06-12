@@ -1,0 +1,13 @@
+.navbar{
+    border-bottom: 1px solid lightgrey;
+}
+.nav-link{
+    font-size: 18px;
+    color: #555;
+    margin: 0px 5px;
+    font-family: Retina,Arial,Helvetica,sans-serif;
+}
+.search-icon{
+    margin-left: 60px;
+    margin-top: 10px;
+}
