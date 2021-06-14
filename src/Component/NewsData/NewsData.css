@@ -1,8 +1,17 @@
-.all-news {
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap:10px;
-    border-top: 1px solid red;
+ .all_news {
+    margin: 30px auto;
+    border-top: 1px solid lightgray;
     padding: 10px;
   }
+ .main_topic{
+      border-left: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+  }
+  .blog_section{
+    border-right: 1px solid lightgray;
+  }
+  .news_article:first-child h1{
+    color: red !important;
+  }
+
+  

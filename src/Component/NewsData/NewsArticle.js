@@ -1,9 +1,8 @@
 import React from 'react';
 import './NewsArticle.css'
 
-const NewsArticle = ({blog}) => {
-    console.log(blog)
-    const {title, description, link, pubDate, thumbnail} = blog
+const NewsArticle = ({post}) => {
+    const {title, description, link, pubDate, thumbnail} = post
     return (
         <>
             <div className="news">
