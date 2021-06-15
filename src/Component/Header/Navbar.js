@@ -68,7 +68,7 @@ const Navbar = () => {
                       <div class="form-group">
                         <input className="search_input" type="text" class="form-control" placeholder="Enter News,Quotes,Compaines Or Video"/>
                       </div>
-                      <button className="btn btn-info" type="submit" class="btn btn-default">Search</button>
+                      <button  type="submit" class="btn btn-info">Search</button>
                     </form>
                   </div>
                   </div>

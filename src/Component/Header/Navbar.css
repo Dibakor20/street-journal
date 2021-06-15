@@ -49,3 +49,6 @@
     outline: none !important;
     box-shadow: none !important;
 }
+.main_button{
+    background-color: lightcoral !important;
+}

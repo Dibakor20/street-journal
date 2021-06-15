@@ -25,7 +25,7 @@ const NewsData = () => {
     return (
         <>
             <div className="row all_news">
-                <div className="col-md-3 col-sm-12  news_article">
+                <div className="col-md-3 col-sm-12">
                 {
                     article?.items?.slice(0,5).map(post=><NewsArticle post={post}></NewsArticle>)
                 }
@@ -40,7 +40,7 @@ const NewsData = () => {
                     blog?.items?.slice(0,4).map(news=> <Blog news={news}></Blog>)
                 }
                 </div>
-                <div className="col-3">
+                <div className="col-md-3 col-sm-12">
                     <NewsStatistics></NewsStatistics>
                 </div>
                
