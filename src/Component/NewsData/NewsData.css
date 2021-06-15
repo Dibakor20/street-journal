@@ -10,8 +10,4 @@
   .blog_section{
     border-right: 1px solid lightgray;
   }
-  .news_article:first-child h1{
-    color: red !important;
-  }
-
-  
+ 

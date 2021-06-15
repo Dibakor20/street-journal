@@ -1,19 +1,18 @@
-.news {
-    max-width: 300px;
+.top_news {
     padding:10px 0px 30px 0px;
+  
     border-bottom: 1px solid lightgray;
     border-radius: 5px;
   }
   
-  .news__title {
+  .top__title {
     color: #222;
     font-size: 22px;
     font-weight: 700;
     cursor: pointer;
-    font-family: Escrow Condensed,Georgia,serif;
   }
-  
-  .news__desc {
+
+  .top__desc {
     color: #333333;  
     padding-top: 10px;
     line-height: 25px;
@@ -25,8 +24,16 @@
   .news__published {
     margin-right: 10px;
   }
-  .news:first-child h1{
-    font-size: 36px;
+  .top_news:first-child h4{
+    background-image: url(../../images/im.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
     font-weight: 700;
   }
-  
+  .top_news:first-child h1{
+      font-size: 32px;
+      font-weight: 300;
+      font-family: Escrow Condensed,Georgia,serif
+  }

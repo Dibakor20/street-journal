@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import NewsArticle from './NewsArticle';
+import TopArticle from './TopArticle';
 import Blog from './Blog';
+import NewsStatistics from '../NewsStatistics/NewsStatistics';
 import './NewsData.css'
 
 const NewsData = () => {
@@ -23,21 +25,23 @@ const NewsData = () => {
     return (
         <>
             <div className="row all_news">
-                <div className="col-3 news_article">
+                <div className="col-md-3 col-sm-12  news_article">
                 {
-                    article?.items?.map(post=><NewsArticle post={post}></NewsArticle>)
+                    article?.items?.slice(0,5).map(post=><NewsArticle post={post}></NewsArticle>)
                 }
                 </div>
-                <div className="col-4 main_topic">
-                    <h1>sadsd</h1>
-                </div>
-                <div className="col-2 blog_section mb-5">
+                <div className="col-md-4 col-sm-12 main_topic">
                 {
-                    blog?.items?.slice(0,8).map(news=> <Blog news={news}></Blog>)
+                    article?.items?.slice(6,10).map(topPost=><TopArticle topPost={topPost}></TopArticle>)
+                }
+                </div>
+                <div className="col-md-2 col-sm-12 blog_section mb-5">
+                {
+                    blog?.items?.slice(0,4).map(news=> <Blog news={news}></Blog>)
                 }
                 </div>
                 <div className="col-3">
-                    sdsd
+                    <NewsStatistics></NewsStatistics>
                 </div>
                
             </div>

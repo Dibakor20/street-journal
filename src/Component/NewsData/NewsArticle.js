@@ -6,7 +6,7 @@ const NewsArticle = ({post}) => {
     return (
         <>
             <div className="news">
-            <h1 className="news__title">{title}</h1>
+            <a href={link}><h1 className="news__title">{title}</h1></a>
             <p className="news__desc">{description}</p>
             <span className="news__published">{pubDate}</span>
             </div>
