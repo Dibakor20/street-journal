@@ -2,7 +2,9 @@
     border-top: 1px solid lightgray;
 }
 .header-title{
+    color: #000000;
     text-align: right;
+    font-family: "Times New Roman";
 }
 .header-subscribe{
     text-align: right;
@@ -20,3 +22,4 @@
 .sign-in{
     padding: 0px 8px;
 }
+

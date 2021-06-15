@@ -1,24 +1,38 @@
 import React from 'react';
-// import '../../../node_modules/react-vis/dist/style.css';
-// import { XYPlot, LineSeries, } from 'react-vis'
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
+import { Line } from 'react-chartjs-2';
+
+const data = {
+  labels: ['1', '2', '3', '4', '5', '6'],
+  datasets: [
+    {
+      label: 'US',
+      data: [12, 19, 3, 5, 2, 3],
+      fill: false,
+      backgroundColor: 'rgb(255, 99, 132)',
+      borderColor: 'rgba(255, 99, 132, 0.2)',
+    },
+  ],
+};
+
+const options = {
+  scales: {
+    yAxes: [
+      {
+        ticks: {
+          beginAtZero: true,
+        },
+      },
+    ],
+  },
+};
+
 
 const NewsChart = () => {
-    const options = {
-        series: [{
-          data: [1, 2, 3]
-        }]
-      }
-       
-    return (
-        <>
-           <HighchartsReact
-            highcharts={Highcharts}
-            options={options}
-  />
-        </>
-    );
+  return (
+    <>
+      <Line data={data} options={options} />
+    </>
+  );
 };
 
 export default NewsChart;

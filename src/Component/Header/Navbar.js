@@ -49,7 +49,37 @@ const Navbar = () => {
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sports</a>
                 </li>
-                 <li class="nav-item search-icon">search <i class="far fa-search ml-3 mr-2"></i></li> 
+                 <li class="nav-item search-icon">search 
+                 
+                 <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-default navbar-btn">
+                 <i class="far fa-search ml-3 mr-2"></i>
+                </button>
+
+
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                  </div>
+                  <div class="modal-body">
+                    <form class="navbar-form " role="search">
+                      <div class="form-group">
+                        <input className="search_input" type="text" class="form-control" placeholder="Enter News,Quotes,Compaines Or Video"/>
+                      </div>
+                      <button className="btn btn-info" type="submit" class="btn btn-default">Search</button>
+                    </form>
+                  </div>
+                  </div>
+                  </div>
+
+
+                </div>
+           
+            
+
+                 </li> 
                 </ul>
             </div>
             </nav> 

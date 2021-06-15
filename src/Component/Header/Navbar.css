@@ -9,5 +9,43 @@
 }
 .search-icon{
     margin-left: 60px;
-    margin-top: 10px;
+}
+.nav-link:hover{
+    font-weight: 600;
+    color:#222 !important;
+}
+
+  .modal-backdrop {
+  background-color:#fff;
+    opacity:1!important;
+      border: 10px solid rgba(136, 136, 136, .4);
+  }
+  
+  .modal-body {
+    text-align: center;
+  } 
+  
+  .modal-body form {
+    margin: 0 auto;
+    float: none;
+ 
+  }
+  
+  .modal-content .close {
+    opacity: 1;
+    font-size: 30px;
+  }
+.form-group input {
+    border: none !important;
+    border-bottom: 1px solid black !important;
+}
+
+
+.btn.focus, .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
 }
