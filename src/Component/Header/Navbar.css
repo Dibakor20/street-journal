@@ -2,20 +2,21 @@
     border-bottom: 1px solid lightgrey;
 }
 .nav-link{
-    font-size: 16px;
-    color: #555;
-    margin: 0px 5px;
-    font-family: Retina,Arial,Helvetica,sans-serif;
-}
-.search-icon{
-    margin-left: 60px;
-}
-.nav-link:hover{
-    font-weight: 600;
-    color:#222 !important;
+  text-transform: capitalize;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  color:#555 !important;
+  font-family: Retina,Arial,Helvetica,sans-serif !important;
+  padding: 3px 8.8px 0 !important;
 }
 
-  .modal-backdrop {
+.nav-link:hover{
+    font-weight: 600 !important;
+    color:#222 !important;
+    font-size: 16px !important;
+}
+
+.modal-backdrop {
   background-color:#fff;
     opacity:1!important;
       border: 10px solid rgba(136, 136, 136, .4);
@@ -49,6 +50,9 @@
     outline: none !important;
     box-shadow: none !important;
 }
-.main_button{
-    background-color: lightcoral !important;
+.search-icon{
+    color: #333 !important;
+    font-family: Retina,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }
