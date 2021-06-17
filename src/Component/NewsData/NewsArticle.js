@@ -8,7 +8,7 @@ const NewsArticle = ({post}) => {
             <div className="news">
             <a href={link}><h3 className="news__title">{title}</h3></a>
             <p className="news__desc">{description}</p>
-            <span className="news_pub">{pubDate}</span>
+            <p className="news_pub">{pubDate}</p>
             </div>
         </>
     );

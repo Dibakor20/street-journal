@@ -2,14 +2,14 @@
     border-top: 1px solid lightgray;
 }
 
-.header-title {
+.header-logo {
     color: #000000;
     font-family: "Times New Roman";
     display:block;
     margin:0 auto;
     padding-top: 10px;
-    width: 35%;
-    height: 80px;
+    width: 30%;
+    height: 50px;
 }
 
 .header-subscribe {

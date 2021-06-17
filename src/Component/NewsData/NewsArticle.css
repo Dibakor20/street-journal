@@ -1,6 +1,5 @@
 .news {
-
-  padding: 0;
+  padding: 10px 0px;
   border-bottom: 1px solid lightgray;
 }
 
@@ -14,9 +13,9 @@
 
 .news__desc {
   color: #333333;
-  line-height: 25px;
   font-size: 14px;
   font-family: Exchange, Georgia, serif;
+  margin: 0px 0px 0px !important;
 }
 
 
@@ -28,4 +27,5 @@
 
 .news_pub{
   font-size: 12px;
+  margin: 0px 0px 8px !important;
 }

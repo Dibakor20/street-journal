@@ -24,35 +24,105 @@ const Navbar = () => {
                             </ul>
 
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">U.S</a>
+                            
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Politics</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Economy</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Business</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Tech</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Markets</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Opinion</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Life & Arts</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">Real Estate</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="#">WSJ.Magazine</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Vision</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sports</a>

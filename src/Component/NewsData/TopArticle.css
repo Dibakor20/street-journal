@@ -1,7 +1,6 @@
 .top__news {
-  padding: 10px 0px 30px 0px;
+  padding: 10px 0px 20px 0px;
   border-bottom: 1px solid lightgray;
-  /* border-radius: 5px; */
 }
 
 .top__title {
@@ -13,8 +12,7 @@
 
 .top__desc {
   color: #333333;
-  padding-top: 10px;
-  line-height: 25px;
+
   font-size: 14px;
   font-family: Exchange, Georgia, serif;
 }

@@ -4,7 +4,6 @@
 
 .nav-link {
   text-transform: capitalize;
-  /* font-weight: 400 !important; */
   font-size: 14px !important;
   color: #555 !important;
   font-family: Retina, Arial, Helvetica, sans-serif !important;
@@ -61,11 +60,9 @@
   font-weight: 400;
   font-size: 13px;
 }
-
-
-
-
-
+a:hover{
+  text-decoration: none;
+}
 
 
 

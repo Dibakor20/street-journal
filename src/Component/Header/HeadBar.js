@@ -8,8 +8,7 @@ const HeadBar = () => {
         <>
             <div>
                 <div className=" head-bar">
-                    {/* <h1 className="header-title">THE WALL STREET JOURNAL</h1> */}
-                    <img className="header-title" src={Logo} alt="" />
+                    <img className="header-logo" src={Logo} alt="" />
                     <div className="">
                       <div className="header-subscribe">
                        <a className="subscribe" href="">Subscribe</a>

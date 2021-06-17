@@ -1,6 +1,6 @@
 import React from 'react';
 import './Blog.css'
-import img from '../../blogImg.jpg'
+import img from '../../images/b.jpg'
 
 const Blog = ({ news }) => {
     const { title, pubDate, image, link } = news
