@@ -3,8 +3,9 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <>
+        <> 
             <nav class="navbar p-0 navbar-expand-lg navbar-light">
+                <div className="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -155,6 +156,7 @@ const Navbar = () => {
                             </div>
                         </div>
                     </a>
+                </div>
                 </div>
             </nav>
 

@@ -9,12 +9,10 @@ const HeadBar = () => {
             <div>
                 <div className=" head-bar">
                     <img className="header-logo" src={Logo} alt="" />
-                    <div className="">
                       <div className="header-subscribe">
                        <a className="subscribe" href="">Subscribe</a>
                        <a className="sign-in" href="">Sign In</a> 
                       </div>
-                    </div> 
                     <Navbar></Navbar>
 
                 </div>

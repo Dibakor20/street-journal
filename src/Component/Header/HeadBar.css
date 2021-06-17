@@ -19,6 +19,7 @@
     text-align: right;
     font-size: 16px;
     padding: 5px 20px;
+    margin-right: 115px;
     /* border: 1px solid red; */
 }
 
@@ -45,5 +46,11 @@
         text-align: right;
         font-size: 16px;
         padding: 15px 0px;
+        margin-right:0px !important;
+    }
+    .header-logo{
+        display: inline-block;
+        width: 60%;
+        height: 50px;
     }
 }
