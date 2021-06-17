@@ -6,8 +6,12 @@ import NewsData from './Component/NewsData/NewsData';
 function App() {
   return (
     <>
+    <div className=""> 
       <HeadBar/>
+      </div>
+      <div className="container">
       <NewsData/>
+    </div>
     </>
   );
 }

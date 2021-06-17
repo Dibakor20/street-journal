@@ -8,10 +8,12 @@ const HeadBar = () => {
         <>
             <div>
                 <div className=" head-bar">
+                    <div className="container header_container">
                     <img className="header-logo" src={Logo} alt="" />
                       <div className="header-subscribe">
                        <a className="subscribe" href="">Subscribe</a>
                        <a className="sign-in" href="">Sign In</a> 
+                      </div>
                       </div>
                     <Navbar></Navbar>
 
