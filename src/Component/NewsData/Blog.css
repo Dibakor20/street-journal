@@ -2,7 +2,7 @@
     max-width:100%;
     padding: 10px 0px;
     border-bottom: 1px solid lightgray;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 .blog_img{
     width: 100%;
@@ -10,4 +10,14 @@
 }
 a:link{
     text-decoration: none;
+}
+
+.blog__title{
+    font-size:16px;
+    color: #222;
+
+}
+.blog__published{
+font-size: 12px;
+
 }

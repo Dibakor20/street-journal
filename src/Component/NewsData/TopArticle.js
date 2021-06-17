@@ -5,11 +5,12 @@ const TopArticle = ({topPost}) => {
     const {title, description, link, pubDate, thumbnail} = topPost
     return (
         <>
-            <div className="top_news">
+            <div className="top__news">
              <h4></h4>
-            <a href={link}><h1 className="top__title">{title}</h1></a>
+            <a href={link}><h3 className="top__title">{title}</h3></a>
+            <hr className='top__news__line' style={{display:'none'}}/>
             <p className="top__desc">{description}</p>
-            <span className="top__published">{pubDate}</span>
+            <span className="top__pub">{pubDate}</span>
             </div>
         </>
     );
